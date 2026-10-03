@@ -1,3 +1,29 @@
+## My Contributions (Ji-Yao Chang)
+
+This is a 4-person team project for the Information Retrieval and Extraction
+course (NYCU, Fall 2025), forked from [mizu5555/MLB_IR](https://github.com/mizu5555/MLB_IR).
+I was responsible for:
+
+- **LLM integration**: served Llama 3.2 locally via Ollama for the analysis mode
+- **Prompt engineering**: structured JSON prompts that require every number to be
+  cited from retrieved statistics; few-shot prompts to replace generic advice with
+  league-average comparisons
+- **Analysis mode**: problem-to-metric mapping (e.g., "poor control" → BB%) with a
+  pre-check that verifies a metric is truly abnormal before generating a diagnosis
+
+**Result:** together with the team's fact-verification engine, the analysis mode
+achieved 100% fact consistency on 50 analytical queries.
+
+## Team
+
+| Member | Responsibilities |
+|---|---|
+| mizu5555 | System architecture, hybrid search, fact verification engine |
+| 陳宥翔 | Query router, data preprocessing, player database |
+| 張晉堯 | LLM integration, prompt engineering, analysis mode |
+| 林彥兆 | Front-end, evaluation framework, testing and documentation |
+
+---
 # MLB Team Manager Assistant
 
 一個基於混合檢索（Vector Search + BM25）和 LLM 的 MLB 球員數據分析系統，具備完整的評估指標追蹤功能。
