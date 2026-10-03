@@ -20,7 +20,7 @@ achieved 100% fact consistency on 50 analytical queries.
 |---|---|
 | mizu5555 | System architecture, hybrid search, fact verification engine |
 | 陳宥翔 | Query router, data preprocessing, player database |
-| 張晉堯 | LLM integration, prompt engineering, analysis mode |
+| Ji-Yao Chang | LLM integration, prompt engineering, analysis mode |
 | 林彥兆 | Front-end, evaluation framework, testing and documentation |
 
 ---
